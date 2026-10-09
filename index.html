@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocky Photography Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- WELCOME SCREEN -->
+    <section id="welcomeScreen" class="screen">
+        <div class="welcome-content">
+            <div class="welcome-logo">ROCK</div>
+            <p class="welcome-small">PHOTO GRAPHY DESIGN</p>
+            <h1>Ku soo dhowow</h1>
+            <p class="welcome-name">ROCKY PHOTO GRAPHY DESIGN</p>
+            <div class="welcome-line"></div>
+            <p class="welcome-note">Hal-abuur, qurux iyo xusuus aan dhammaan</p>
+        </div>
+    </section>
+
+    <!-- LIGHTNING SCREEN -->
+    <section id="lightningScreen" class="screen hidden">
+        <div class="sky">
+            <div class="cloud cloud-one"></div>
+            <div class="cloud cloud-two"></div>
+
+            <svg class="lightning" viewBox="0 0 200 300">
+                <path d="M115 0 L65 120 L105 115 L45 240
+                         L125 130 L85 137 Z"/>
+            </svg>
+
+            <h1 class="lightning-title">ROCK</h1>
+            <p class="lightning-subtitle">Quruxdu waxay ku jirtaa faahfaahinta</p>
+        </div>
+
+        <div class="loading-area">
+            <p id="loadingText">Diyaarinta naqshadda...</p>
+            <div class="loading-track">
+                <div id="loadingBar"></div>
+            </div>
+            <span id="loadingPercent">0%</span>
+        </div>
+    </section>
+
+    <!-- MAIN ENVELOPE -->
+    <main id="mainScreen" class="screen hidden">
+
+        <div class="scene">
+
+            <p class="top-caption">FARIIN GAAR AH AYAAD HAYSATAA</p>
+
+            <div id="envelope" class="envelope">
+
+                <!-- Inside of the envelope -->
+                <div class="envelope-inside"></div>
+
+                <!-- Letter -->
+                <article id="letter" class="letter">
+                    <div class="letter-border">
+                        <span class="letter-symbol">♡</span>
+
+                        <h2>Ku soo dhowow</h2>
+
+                        <p class="letter-intro">
+                            Farriin qurux badan ayaa kuu sugaysa
+                        </p>
+
+                        <div class="letter-divider"></div>
+
+                        <h3>Qurux iyo xusuus</h3>
+
+                        <p>
+                            Noloshu waxay qurux yeelataa marka aan
+                            abuurno wax qalbiga farxad geliya.
+                            Sida sawirku u ilaaliyo xusuusta,
+                            ayay erayada quruxda badan u ilaaliyaan
+                            dareenka qalbiga.
+                        </p>
+
+                        <p class="letter-ending">
+                            Mahadsanid inaad timid ❤️
+                        </p>
+
+                        <div class="letter-signature">
+                            ROCK Photography
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Left and right sides -->
+                <div class="side side-left"></div>
+                <div class="side side-right"></div>
+
+                <!-- Bottom of the envelope -->
+                <div class="bottom-flap"></div>
+
+                <!-- Top flap -->
+                <div class="top-flap">
+                    <div class="flap-inner"></div>
+                </div>
+
+                <!-- Original-style logo -->
+                <div class="envelope-logo">
+                    <div class="camera-logo">
+                        <div class="camera-top">
+                            <div class="camera-small"></div>
+                        </div>
+
+                        <div class="camera-line line-one"></div>
+                        <div class="camera-line line-two"></div>
+                        <div class="camera-line line-three"></div>
+
+                        <div class="camera-body">
+                            <div class="camera-lens"></div>
+                        </div>
+                    </div>
+
+                    <h1>ROCK</h1>
+                    <p>photo graphy</p>
+                </div>
+
+                <!-- Clickable area -->
+                <button id="openButton" class="open-button"
+                        aria-label="Fur baqshadda">
+                    TAABO SI AAD U FURTO
+                </button>
+
+            </div>
+
+            <p id="instruction" class="instruction">
+                Taabo baqshadda si ay u furanto
+            </p>
+
+            <p class="footer-caption">ROCK PHOTO GRAPHY DESIGN</p>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
